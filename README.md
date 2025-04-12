@@ -15,7 +15,7 @@ Este trabalho tem como objetivo avaliar a capacidade de modelos de linguagem nat
 
 ### 🤖 Modelo de Linguagem
 
-A definir. A princípio, será utilizado um modelo LLM com suporte a entrada de código e compreensão semântica (ex: GPT-4, Claude, etc.).
+Neste projeto, utilizaremos dois modelos de linguagem open source: LLaMA e DeepSeek, ambos amplamente adotados na comunidade de inteligência artificial e disponíveis na plataforma Hugging Face. A Hugging Face é uma plataforma amplamente usada na área de inteligência artificial para disponibilizar e compartilhar modelos de machine learning de forma acessível e padronizada.
 
 ### 🗂️ Dataset
 
@@ -29,15 +29,19 @@ O foco principal do dataset são bugs localizados em poucas linhas, o que facili
 
 ### ✍️ Exemplos Preliminares de Prompts
 
-Exemplo:
-
-Corrija o seguinte código com um possível bug:
+Exemplo de primeiro prompt ingênuo, definido no padrão comum de LLMs com modelos disponíveis no HuggingFace. Pode ter seu formato alterado se o modelo requerir. 
 
 ````
-def get_factorial(n):
-    if n == 0:
-        return 0
-    return n * get_factorial(n - 1)
+[
+  {
+    "role": "system",
+    "content": "You are a helpful AI programming assistant. When the user sends you a piece of code that contains a bug, your job is to return the corrected version of the code. "
+  },
+  {
+    "role": "user",
+    "content": "def add_numbers(a, b):\n    return a + b\n\nprint(add_numbers(2))"
+  }
+]
 ````
 
 ### 📏 Avaliação Quantitativa
