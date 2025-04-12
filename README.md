@@ -61,3 +61,4 @@ Essa análise ajudará a compreender as limitações e o comportamento do modelo
 ## 📎 Referências
 
 - [QuixBugs Dataset](https://github.com/jkoppel/QuixBugs)
+- [HuggingFace] (https://huggingface.co/)
