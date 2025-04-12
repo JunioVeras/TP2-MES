@@ -1,4 +1,4 @@
-# TP2-MES – Correção de Bugs com Modelos de Linguagem
+# TP2-MES – Análise de Correção de Bugs com Modelos de Linguagem
 
 ## 🧠 Proposta do Trabalho
 
