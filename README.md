@@ -8,8 +8,8 @@ Este trabalho tem como objetivo avaliar a capacidade de modelos de linguagem nat
 
 - Júnio Veras de Jesus Lima (SI)
 - Ester Sara Assis (CC)
-- Filipe (CC)
--
+- Filipe Pirola (CC)
+- Igor Eduardo Braga (CC)
 
 ## 🔍 Metodologia
 
