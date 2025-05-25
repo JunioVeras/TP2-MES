@@ -15,7 +15,7 @@ Este trabalho tem como objetivo avaliar a capacidade de modelos de linguagem nat
 
 ### 🤖 Modelo de Linguagem
 
-Neste projeto, utilizaremos dois modelos de linguagem open source: LLaMA e DeepSeek, ambos amplamente adotados na comunidade de inteligência artificial e disponíveis na plataforma Hugging Face. A Hugging Face é uma plataforma amplamente usada na área de inteligência artificial para disponibilizar e compartilhar modelos de machine learning de forma acessível e padronizada.
+Neste projeto, utilizaremos dois modelos de linguagem open source: LLaMA e Mistral, ambos amplamente adotados na comunidade de inteligência artificial e disponíveis na plataforma Hugging Face. A Hugging Face é uma plataforma amplamente usada na área de inteligência artificial para disponibilizar e compartilhar modelos de machine learning de forma acessível e padronizada.
 
 ### 🗂️ Dataset
 
