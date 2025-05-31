@@ -1,5 +1,3 @@
- Here's the corrected version of the code:
-```python
 from collections import defaultdict
 
 def shortest_path_lengths(n, length_by_edge):
@@ -16,4 +14,3 @@ def shortest_path_lengths(n, length_by_edge):
                 )
 
     return length_by_path
-```

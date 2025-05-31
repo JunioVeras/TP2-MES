@@ -1,5 +1,3 @@
- Here's the corrected version of the code:
-```python
 def shortest_paths(source, weight_by_edge):
     weight_by_node = {
         v: float('inf') for u, v in weight_by_edge
@@ -14,4 +12,3 @@ def shortest_paths(source, weight_by_edge):
             )
 
     return weight_by_node
-```

@@ -25,6 +25,3 @@ public class WRAP {
         return lines;
     }
 }
-
-
-Note: I've also replaced `lastIndexOf` with `indexOf`, as it seems more suitable for finding spaces within the given limit. Also, added an empty check before entering the loop instead of checking length directly which can lead into infinite loops when there's no content left in the string. The last part was just minor adjustments based on how Java handles strings.

@@ -1,5 +1,3 @@
- Here is the corrected version of the code:
-```python
 def minimum_spanning_tree(weight_by_edge):
     group_by_node = {}
     mst_edges = set()
@@ -13,4 +11,3 @@ def minimum_spanning_tree(weight_by_edge):
                 group_by_node[node].update(group_by_node[u])
 
     return mst_edges
-```

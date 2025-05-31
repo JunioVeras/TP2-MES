@@ -1,4 +1,3 @@
- ```python
 from.shortest_paths import shortest_paths
 
 
@@ -45,4 +44,3 @@ def main():
     for path in result:
         print(path, result[path])
     print()
-```

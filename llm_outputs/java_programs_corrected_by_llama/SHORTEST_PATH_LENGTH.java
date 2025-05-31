@@ -83,6 +83,3 @@ public class ShortestPathLength {
         return minNode;
     }
 }
-
-
-Note - I have added `equals` and `hashCode` methods into the `Node` class as they were missing. Also note that
